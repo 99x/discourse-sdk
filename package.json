@@ -1,0 +1,21 @@
+{
+  "name": "discourse-sdk",
+  "version": "1.0.0",
+  "description": "This npm module allows to consume the discourse api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discourse-api",
+    "node.js",
+    "express.js"
+  ],
+  "author": "Niroshan Ranapathi",
+  "license": "MIT",
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "request": "^2.75.0",
+    "sync-request": "^3.0.1"
+  }
+}
