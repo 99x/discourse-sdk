@@ -9,9 +9,11 @@ Using npm
 ## Usage
 In node.js 
 
-`var discourse = require('discourse-sdk');`
+```javascript
+ var discourse = require('discourse-sdk');
 
-`var client = new discourse('API-URL', 'API-KEY', 'USER-NAME');`
+ var client = new discourse('API-URL', 'API-KEY', 'USER-NAME');
+ ```
 
 Gets a list of categories
 ```javascript
@@ -31,3 +33,6 @@ client.getCategoryLatestTopic(category_slug, params,,function(error, body, httpC
   console.log(body);                
 });
 ```
+
+## Credits
+[discourse-api](https://github.com/dhyasama/discourse-api)
