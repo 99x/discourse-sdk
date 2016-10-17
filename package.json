@@ -11,7 +11,7 @@
     "node.js",
     "express.js"
   ],
-  "author": "Niroshan Ranapathi",
+  "author": "Jason Reynolds ,Niroshan Ranapathi",
   "license": "MIT",
   "dependencies": {
     "querystring": "^0.2.0",
