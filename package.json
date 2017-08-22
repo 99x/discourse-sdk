@@ -4,7 +4,7 @@
   "description": "This npm module allows to consume the discourse api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no test specified yet\""
   },
   "keywords": [
     "discourse-api",
