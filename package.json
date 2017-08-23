@@ -4,7 +4,7 @@
   "description": "This npm module allows to consume the discourse api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc --reporter=html --reporter=text mocha"
   },
   "keywords": [
     "discourse-api",
@@ -17,5 +17,9 @@
     "querystring": "^0.2.0",
     "request": "^2.75.0",
     "sync-request": "^3.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0"
   }
 }
